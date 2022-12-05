@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: bisque;
 }
 
 code {
@@ -21,7 +22,8 @@ section{
 
 section .counter{
   text-align: center;
-  font-size: 3rem;
+  font-size: 5rem;
+  margin: 4rem 0;
 }
 
 .basicButtons{
@@ -35,8 +37,12 @@ section .counter{
   padding: 10px 20px;
   font-size: 2rem;
   outline: none;
-  background-color: salmon;
+  background-color: lightseagreen;
   border: none;
   box-shadow: none;
   cursor: pointer;
+}
+
+.reset{
+  background-color: salmon !important;
 }
